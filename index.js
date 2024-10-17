@@ -73,3 +73,17 @@ Respuesta = 5 === "5"; //False
 Respuesta = 23 != "23"; //False
 //Diferente estricta !==
 Respuesta = 30 !== "50"; //True
+
+//Mayor que > , Menor que < ,  Mayor o Igual que >= , Menor o  Igual que <=
+let esMayor = 10 > 5; //True
+let esMenor = 5 < 3; //False
+let esMayorOigual = 10 >= 5; //True
+let esMenorOigual = 10 <= 5; //False
+
+//Operadores Logicos
+// Y Logico &&
+let Resultados = 5 > 3 && 17 < 10; //False
+//O Logico ||
+Resultados = 5 > 3 || 7 < 10; //True
+//No Logico !
+let esFalso = !(5 > 10); //True (Porque 5 > 10 es false, entonces !false es = True)
