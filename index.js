@@ -42,3 +42,34 @@ let persona = {
 // Array Arreglos
 let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let Frutas = ["Manzana", "Naranja", "Pera"];
+
+//Operadores Arigméticos
+
+//Suma +
+let suma = 5 + 3; // 8
+//Resta -
+let Resta = 5 - 3; // 2
+//Multiplicacion *
+let Multiplicacion = 5 * 3; // 15
+//Divicion /
+let Divicion = 5 / 5; // 1
+//Módulo %
+let Modulo = 10 % 3; // 1 (El  resultado de la  divicion)
+
+//Operadores de Asignación
+//Igual =
+let Numero = 5;
+//Suma y Asigna +=
+Numero += 3; // Equivale a Numero + 3 y  ahora su valoses 8
+//Resta y Asigna -=
+Numero -= 2; // Numero es Igual a 6
+
+//Operadores de Comparación
+//Igualdad debil ==
+let Resultado = 5 == "5"; //True
+//Igualdad estricta  ====
+Respuesta = 5 === "5"; //False
+//Diferente debil !=
+Respuesta = 23 != "23"; //False
+//Diferente estricta !==
+Respuesta = 30 !== "50"; //True
